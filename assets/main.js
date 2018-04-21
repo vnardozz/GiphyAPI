@@ -15,7 +15,7 @@ displayButtons()
 
 $(document).on("click", ".btn", function () {
     var info = $(this).attr("info")
-    $.get("http://api.giphy.com/v1/gifs/search?q=" + info + "&api_key=UcptY1YYMiXVusEvBHjDciFSik2zVKAy&limit=10").then(function (response) { 
+    $.get("https://api.giphy.com/v1/gifs/search?q=" + info + "&api_key=UcptY1YYMiXVusEvBHjDciFSik2zVKAy&limit=10").then(function (response) { 
         $("#gif-display").empty()     
         for (var i = 0; i < response.data.length; i++) {
             var urlAnimated = response.data[i].images.fixed_height.url
