@@ -1,0 +1,44 @@
+body {
+    background: url("../assets/images/background.jpg");
+    background-size: 100%;
+    
+}
+#greeting {
+    text-align: center;
+    color: tomato;
+    font-family: 'Black And White Picture', sans-serif;
+
+
+}
+#button-display {
+    margin-top: 20px;
+    margin-left: 25%
+}
+#gif-display {
+    align-content: center;
+    padding: 40px;
+    font-family: 'Black And White Picture', sans-serif;
+
+    color: white;
+    font-size: 50px;
+}
+.giphy {
+    align-content: center;
+    padding: 10px;
+    margin: 5px;
+}
+#button-add,  {
+    margin-top: 60px;
+       
+}
+#input-text {
+    margin-left: 42%;
+    margin-top: 5%;
+    height: 44px;
+}
+#btn{
+    margin-right: 10px;
+  }
+  
+
+
